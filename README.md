@@ -32,7 +32,6 @@ The cluster is configured with a single primary and one asynchronous streaming r
 ### Dependencies
 1. [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
 2. [Vagrant](http://www.vagrantup.com/downloads.html)
-3. `git clone https://github.com/vtomasr5/postgresql-patroni-setup.git`
 
 ### Getting started
 
