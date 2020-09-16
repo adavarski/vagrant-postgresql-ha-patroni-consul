@@ -69,12 +69,15 @@ vagrant@pg01:~$ patronictl -c /etc/patroni/patroni.yml list
 # vagrant halt pg01
 ==> pg01: Attempting graceful shutdown of VM...
 
+
 vagrant@pg02:~$ patronictl -c /etc/patroni/patroni.yml list
 + Cluster: clustertest (6873022352597197692) ---+-----------+
 | Member |     Host     |  Role  |  State  | TL | Lag in MB |
 +--------+--------------+--------+---------+----+-----------+
 |  pg02  | 172.28.33.12 | Leader | running |  3 |           |
 +--------+--------------+--------+---------+----+-----------+
+
+# vagrant up pg01
 
 # vagrant ssh pg01
 Welcome to Ubuntu 18.04.5 LTS (GNU/Linux 4.15.0-117-generic x86_64)
